@@ -11,32 +11,31 @@ export default function Hero() {
           src="/images/image.png" 
           alt="Crimson Fermentation Bottle"
           className="hero-bottle"
-          width={400}
-          height={800}
+          width={1400}
+          height={1800}
           priority
         />
       </div>
 
-      {/* Hero Section */}
+      {/* Hero Section with Video Background */}
       <section className="hero vintage-hero">
-        <div className="hero-content">
-          {/* Decorative Stamp */}
-          <Image 
-            src="/images/stamp.png" 
-            alt="Crimson Fermentation Stamp"
-            className="hero-stamp"
-            width={150}
-            height={150}
-            priority
-          />
+  <div className="hero-video-wrapper">
+    <video 
+      autoPlay 
+      loop 
+      muted 
+      playsInline 
+      className="hero-video"
+    >
+      <source src="/videos/hero1.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-          {/* Main Heading */}
-          <h1>
-            <span className="line">Crimson</span>
-            <span className="line highlight">Fermentation</span>
-          </h1>
-        </div>
-      </section>
+  <div className="hero-content">
+    {/* Your content goes here */}
+  </div>
+</section>
+
     </>
   )
 }
