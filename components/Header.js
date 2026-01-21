@@ -14,7 +14,7 @@ export default function Header() {
     <header style={{ '--border-width': '0' }}>
       <div className="header-inner">
         {/* Logo */}
-        <div className="logo">CraftEdge</div>
+        <div className="logo">CLEVER PROJECT</div>
 
         {/* Desktop Navigation */}
         <nav className="desktop-nav">

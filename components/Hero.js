@@ -5,10 +5,19 @@ import { useRef } from 'react'
 
 export default function Hero() {
   const videoRef = useRef(null)
+  const triggeredRef = useRef(false)
 
-  const handleVideoEnd = () => {
-    document.body.classList.add('video-ended')
-    window.dispatchEvent(new Event('heroVideoEnded'))
+  const handleTimeUpdate = () => {
+    const video = videoRef.current
+    if (!video || triggeredRef.current) return
+
+    // 🔥 600ms before video ends
+    if (video.duration - video.currentTime <= 2.4) {
+      triggeredRef.current = true
+
+      document.body.classList.add('video-ending')
+      window.dispatchEvent(new Event('heroVideoNearEnd'))
+    }
   }
 
   return (
@@ -34,7 +43,7 @@ export default function Hero() {
             muted
             playsInline
             className="hero-video"
-            onEnded={handleVideoEnd}
+            onTimeUpdate={handleTimeUpdate}
           >
             <source src="/videos/hero1.mp4" type="video/mp4" />
           </video>
