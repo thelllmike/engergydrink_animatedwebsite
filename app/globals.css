@@ -277,6 +277,15 @@ footer {
 
 /* === Hero Section === */
 
+
+.bottle-hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none;
+  transform: translateY(100px) scale(0.9); /* keeps it off-screen */
+}
+
+
 .hero {
   position: relative;
   width: 100%;
@@ -299,11 +308,10 @@ footer {
   display: block;
 }
 
-/* keep your bottle above the video */
 .hero-bottle-wrapper {
   position: absolute;
   z-index: 2;
-  opacity: 0; /* revealed by your GSAP */
+  opacity: 0; 
   transform: scale(0.9);
 }
 
