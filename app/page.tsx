@@ -20,11 +20,14 @@ export default function Home() {
       <Header />
       
       <main id="smooth-content">
-        <Hero />
-        <IntroSection />
-        <TimelineSection />
-        <SocialSidebar />
-      </main>
+  <Hero />
+  <IntroSection />
+  <TimelineSection />
+  <SocialSidebar />
+</main>
+
+
+
       
       <Footer />
     </>

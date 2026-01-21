@@ -12,7 +12,9 @@ export default function Hero() {
     if (!video || triggeredRef.current) return
 
     // 🔥 600ms before video ends
-    if (video.duration - video.currentTime <= 2.4) {
+    if (video.duration - video.currentTime <= 2.4
+      
+    ) {
       triggeredRef.current = true
 
       document.body.classList.add('video-ending')
