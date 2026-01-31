@@ -36,11 +36,10 @@ export default function IntroSection() {
       <div className="intro-grid">
         {/* Left Side: Headings and Description */}
         <div className="intro-left">
-          <p className="small-title">Our Selection</p>
-          <h2 className="main-heading">The Heritage Line</h2>
+          {/* <p className="small-title">Our Selection</p> */}
+          <h2 className="main-heading">Tested Under Fire Powered by Spinner</h2>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            suscipit soluta tenetur voluptatibus libero dolorum.
+            Spinner Energy Drink fuels the fire when it matters most. Power up your day, tag your fight partner, and get ready to unleash under pressure.
           </p>
           <Link href="#explore" className="cta-box">
             Explore All

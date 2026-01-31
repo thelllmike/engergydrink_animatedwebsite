@@ -20,7 +20,7 @@ export default function TimelineSection() {
 
   return (
     <section className="timeline-section">
-      <h2 className="timeline-main-title">Our Timeline</h2>
+      <h2 className="timeline-main-title">Same fire Different flavors</h2>
 
       {timelineData.map((entry, index) => (
         <div key={index} className="timeline-entry">

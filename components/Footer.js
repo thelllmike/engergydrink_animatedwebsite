@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom big text */}
-      <h1 className="footer-big-text">Crazy Footer</h1>
+      <h1 className="footer-big-text">SPINNER</h1>
     </footer>
   )
 }
