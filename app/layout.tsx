@@ -1,20 +1,20 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter'
 })
 
 export const metadata = {
-  title: 'CraftEdge | Crimson Fermentation',
-  description: 'Experience the heritage of craft brewing with CraftEdge. Discover our Crimson Fermentation collection, brewed with passion since 1984.',
-  keywords: 'craft beer, brewery, artisan brewing, fermentation, heritage brewing',
-  authors: [{ name: 'CraftEdge' }],
+  title: 'Clever Project | Energy Drink',
+  description: 'Experience the power of innovation with Clever Project. Discover our premium energy drink collection, crafted with passion.',
+  keywords: 'energy drink, premium beverage, innovation, clever project',
+  authors: [{ name: 'Clever Project' }],
   openGraph: {
-    title: 'CraftEdge | Crimson Fermentation',
-    description: 'Experience the heritage of craft brewing with CraftEdge',
+    title: 'Clever Project | Energy Drink',
+    description: 'Experience the power of innovation with Clever Project',
     type: 'website',
     locale: 'en_US',
   },

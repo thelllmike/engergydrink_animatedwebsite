@@ -1,6 +1,6 @@
-# CraftEdge - Crimson Fermentation
+# Clever Project
 
-A modern, animated craft brewery website built with Next.js, TypeScript, and GSAP. Features smooth scroll animations, vintage aesthetics, and responsive design.
+A modern, animated energy drink website built with Next.js, TypeScript, and GSAP. Features smooth scroll animations, vintage aesthetics, and responsive design.
 
 ![CraftEdge Preview](public/images/image.png)
 
