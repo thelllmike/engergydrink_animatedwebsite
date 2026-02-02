@@ -750,6 +750,52 @@ main {
   box-shadow: 4px 4px 0 var(--sienna);
 }
 
+/* === 3D Bottle Container === */
+.timeline-3d-wrapper {
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.bottle-3d-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.bottle-3d-container:active {
+  cursor: grabbing;
+}
+
+/* Loading state for 3D bottles */
+.bottle-loading {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(27, 27, 27, 0.05) 0%, rgba(29, 25, 172, 0.05) 100%);
+  border-radius: 12px;
+}
+
+.bottle-loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--sienna-2);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Right Side of Timeline: Text Content */
 .timeline-right {
   flex: 1;
