@@ -15,18 +15,18 @@ const Bottle3D = dynamic(() => import('./Bottle3D'), {
 export default function TimelineSection() {
   const timelineData = [
     {
-      year: '1984',
-      title: 'The First Batch',
-      description: 'Our journey began in a wooden barn nestled among oak trees. The first batch was brewed with hand-milled barley and patience.',
+      
+      title: 'Sugar Free',
+      description: 'Stay energized without the sugar! The Spinner Energy Drink - Sugar Free offers a refreshing, low-calorie boost with a delicious mixed fruit & berry flavor. Perfect for those who want to stay alert and active without the sugar or added calories. Packed with key vitamins like B2, B3, B6, and B12, as well as 400mg of taurine and 30mg of caffeine, this drink is designed to fuel your day and keep you going..',
       modelType: 'glb',
       modelPath: '/models/bottle1/base_basic_shaded.glb',
       texturePath: null,
       scale: 2
     },
     {
-      year: '1989',
-      title: 'The Fire Oak Revival',
-      description: 'A lightning storm sparked a fire that nearly ended our legacy. But from the ashes, we rebuilt — charred oak barrels, reclaimed tools, and a vow to never compromise the craft.',
+     
+      title: 'WATERMELON',
+      description: 'Experience the refreshing and energizing taste of Spinner Energy Drink – Watermelon, a perfect blend of carbonated water and watermelon flavoring. Infused with caffeine, taurine, and essential B vitamins, this fizzy drink provides a quick boost of energy to keep you active and focused.Ingredients: Carbonated water, caffeine, taurine, sugar, tri-sodium citrate (INS311III), nature-identical flavoring substances ',
       modelType: 'glb',
       modelPath: '/models/bottle2/base_basic_shaded.glb',
       texturePath: null,
